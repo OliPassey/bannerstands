@@ -6,22 +6,31 @@
     body {
       text-align: center;
       font-family: Arial, sans-serif;
+      background-color: #353637;
     }
 
     h1 {
       margin-top: 50px;
       font-size: 28px;
+      color: #0bbf23;
+    }
+
+    h2 {
+      margin-top: 50px;
+      font-size: 26px;
+      color: #bf0b0b;
     }
 
     p {
       margin-top: 20px;
       font-size: 18px;
+      color: white;
     }
 
     .counter {
       margin-top: 40px;
       font-size: 24px;
-      color: #888;
+      color: #0bbf23;
     }
   </style>
   <?php
@@ -69,7 +78,7 @@
   <p>Many people ask us about banner stands, but we don't have any.</p>
   <div class="counter">So far, <?php echo $visitorCount; ?> people did not believe we have no banner stands.</div>
   <br><br>
-  <p>Before you continue...</p>
+  <h2>Before you continue...</h2>
   <p>They are broken.</p>
   <p>They use old branding.</p>
   <p>They send people to campaigns that aren't running anymore.</p>
